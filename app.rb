@@ -11,7 +11,7 @@ class App < Sinatra::Base
     params['result'].each do |msg|
       request_content = {
         to: [msg['content']['from']],
-        toChannel: 1383378250, # Fixed  value
+        toChannel: 1654412746, # Fixed  value
         eventType: "138311608800106203", # Fixed value
         content: msg['content']
       }
